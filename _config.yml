@@ -139,8 +139,6 @@
 #   "docker-compose.yml",
 #   ]
 
-resume: Resume.pdf
-
 title: Ehsaas Nahata
 name: Ehsaas Nahata
 email: ehsaasnahata@gmail.com
@@ -158,93 +156,90 @@ plugins:
 
 - jekyll-seo-tag
 
-content:
+# ABOUT SECTION
 
-- title: Experience
-  layout: list
-  content:
+about_profile_image: assets/profile.jpg
+about_content: |
+AI/ML Engineer passionate about building intelligent systems using Deep Learning, LLMs, and full-stack technologies.
 
-  - layout: left
-    title: ZOICX Technologies
-    sub_title: Intern
-    caption: OTB (Osmania Technology Business Incubator)
-    description: "- Built a spam filter Chrome extension\n- Learned cybersecurity"
+# EXPERIENCE
 
-  - layout: left
-    title: Project School, Keshav Memorial Engineering College
-    sub_title: AI/ML Trainee (Part-time)
-    description: "- Authored a research paper\n- Built MERN + DL/ML projects\n- Built Finance Chatbot (RAG)"
+experience:
 
-- title: Projects
-  layout: list
-  content:
+- title: ZOICX Technologies
+  company: OTB (Osmania Technology Business Incubator)
+  duration: Intern
+  description: |
+  Built a spam filter Chrome extension.
+  Learned core cybersecurity concepts.
 
-  - layout: left
-    title: CNN Pothole Detection
-    description: "Built a CNN using PyTorch and TensorFlow"
+- title: AI/ML Trainee
+  company: Project School, Keshav Memorial Engineering College
+  duration: Part-time
+  description: |
+  Authored research in healthcare & deep learning.
+  Built MERN + ML projects.
+  Developed Finance Chatbot using RAG.
 
-  - layout: left
-    title: Finance Chatbot
-    description: "Multi-agent chatbot with RAG"
+# PROJECTS
 
-  - layout: left
-    title: Med-Net Web App
-    description: "Full-stack healthcare app (MERN + ML)"
+projects:
 
-  - layout: left
-    title: Traffic Management System
-    description: "Computer vision based traffic system"
+- title: CNN Pothole Detection
+  description: Built a CNN using PyTorch and TensorFlow.
 
-- title: Skills
-  layout: list
-  content:
+- title: Finance Chatbot
+  description: Multi-agent chatbot using RAG.
 
-  - layout: left
-    title: Programming
-    description: "Python, Java, C/C++, Kotlin, HTML, CSS, JavaScript"
+- title: Med-Net Web App
+  description: Full-stack healthcare app (MERN + ML).
 
-  - layout: left
-    title: AI/ML
-    description: "ANNs, CNNs, LLMs, Transformers, RAG, PyTorch, TensorFlow"
+- title: Traffic Management System
+  description: Computer vision based traffic system.
 
-  - layout: left
-    title: Tools
-    description: "MongoDB, Git, GitHub, PostgreSQL, AI Agents, GCP, Azure, Cloudflare"
+# SKILLS
 
-  - layout: left
-    title: Soft Skills
-    description: "Problem Solving, Teamwork, Strategic Thinking"
+skills:
 
-- title: Education
-  layout: list
-  content:
+- name: Programming
+  level: Python, Java, C/C++, Kotlin, HTML, CSS, JavaScript
 
-  - layout: left
-    title: Keshav Memorial Engineering College
-    sub_title: B.E. CSE (AI & ML)
-    caption: "2023 - 2027"
+- name: AI/ML
+  level: ANNs, CNNs, LLMs, Transformers, RAG, PyTorch, TensorFlow
 
-  - layout: left
-    title: Narayana Junior College
-    caption: "2021 - 2023"
+- name: Tools
+  level: MongoDB, Git, GitHub, PostgreSQL, AI Agents, GCP, Azure, Cloudflare
 
-  - layout: left
-    title: Kalpa School
-    caption: "2021"
+- name: Soft Skills
+  level: Problem Solving, Teamwork, Strategic Thinking
 
-- title: Achievements
-  layout: list
-  content:
+# EDUCATION
 
-  - layout: left
-    title: Code Conflux 2023
-    description: "Winner"
+education:
 
-  - layout: left
-    title: Project School 2025
-    description: "KMEC"
+- degree: B.E. CSE (AI & ML)
+  school: Keshav Memorial Engineering College
+  duration: 2023 - 2027
 
-  - layout: left
-    title: Badminton Competition 2024
-    description: "Winner & Runner-up"
+- degree: Intermediate (MPC)
+  school: Narayana Junior College
+  duration: 2021 - 2023
+
+- degree: Secondary Education
+  school: Kalpa School
+  duration: 2021
+
+# ACHIEVEMENTS
+
+achievements:
+
+- title: Code Conflux 2023
+  description: Winner
+
+- title: Project School 2025
+  description: KMEC
+
+- title: Badminton Competition 2024
+  description: Winner & Runner-up
+
 
