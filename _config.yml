@@ -138,11 +138,12 @@
 #   "scripts/",
 #   "docker-compose.yml",
 #   ]
+
 resume: Resume.pdf
 
 title: Ehsaas Nahata
 name: Ehsaas Nahata
-email: [ehsaasnahata@gmail.com](mailto:ehsaasnahata@gmail.com)
+email: ehsaasnahata@gmail.com
 description: "AI/ML Engineer | Full Stack Developer | LLM & Deep Learning Enthusiast"
 
 baseurl: ""
@@ -155,95 +156,95 @@ theme_skin: blue
 
 plugins:
 
-* jekyll-seo-tag
+- jekyll-seo-tag
 
 content:
 
-* title: Experience
+- title: Experience
   layout: list
   content:
 
-  * layout: left
+  - layout: left
     title: ZOICX Technologies
     sub_title: Intern
     caption: OTB (Osmania Technology Business Incubator)
     description: "- Built a spam filter Chrome extension\n- Learned cybersecurity"
 
-  * layout: left
+  - layout: left
     title: Project School, Keshav Memorial Engineering College
     sub_title: AI/ML Trainee (Part-time)
     description: "- Authored a research paper\n- Built MERN + DL/ML projects\n- Built Finance Chatbot (RAG)"
 
-* title: Projects
+- title: Projects
   layout: list
   content:
 
-  * layout: left
+  - layout: left
     title: CNN Pothole Detection
-    description: "Built a CNN using PyTorch"
+    description: "Built a CNN using PyTorch and TensorFlow"
 
-  * layout: left
+  - layout: left
     title: Finance Chatbot
     description: "Multi-agent chatbot with RAG"
 
-  * layout: left
+  - layout: left
     title: Med-Net Web App
     description: "Full-stack healthcare app (MERN + ML)"
 
-  * layout: left
+  - layout: left
     title: Traffic Management System
     description: "Computer vision based traffic system"
 
-* title: Skills
+- title: Skills
   layout: list
   content:
 
-  * layout: left
+  - layout: left
     title: Programming
     description: "Python, Java, C/C++, Kotlin, HTML, CSS, JavaScript"
 
-  * layout: left
+  - layout: left
     title: AI/ML
-    description: "ANNs, CNNs, LLMs"
+    description: "ANNs, CNNs, LLMs, Transformers, RAG, PyTorch, TensorFlow"
 
-  * layout: left
+  - layout: left
     title: Tools
-    description: "MongoDB, Git, GitHub, PostgreSQL, AI Agents"
+    description: "MongoDB, Git, GitHub, PostgreSQL, AI Agents, GCP, Azure, Cloudflare"
 
-  * layout: left
+  - layout: left
     title: Soft Skills
     description: "Problem Solving, Teamwork, Strategic Thinking"
 
-* title: Education
+- title: Education
   layout: list
   content:
 
-  * layout: left
+  - layout: left
     title: Keshav Memorial Engineering College
     sub_title: B.E. CSE (AI & ML)
     caption: "2023 - 2027"
 
-  * layout: left
+  - layout: left
     title: Narayana Junior College
     caption: "2021 - 2023"
 
-  * layout: left
+  - layout: left
     title: Kalpa School
     caption: "2021"
 
-* title: Achievements
+- title: Achievements
   layout: list
   content:
 
-  * layout: left
+  - layout: left
     title: Code Conflux 2023
     description: "Winner"
 
-  * layout: left
+  - layout: left
     title: Project School 2025
     description: "KMEC"
 
-  * layout: left
+  - layout: left
     title: Badminton Competition 2024
     description: "Winner & Runner-up"
 
