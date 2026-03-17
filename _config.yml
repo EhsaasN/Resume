@@ -138,6 +138,7 @@
 #   "scripts/",
 #   "docker-compose.yml",
 #   ]
+resume: Resume.pdf
 
 title: Ehsaas Nahata
 name: Ehsaas Nahata
@@ -153,14 +154,13 @@ github_username: EhsaasN
 theme_skin: blue
 
 plugins:
-
 - jekyll-seo-tag
 
 # ABOUT SECTION
 
 about_profile_image: assets/profile.jpg
 about_content: |
-AI/ML Engineer passionate about building intelligent systems using Deep Learning, LLMs, and full-stack technologies.
+  AI/ML Engineer passionate about building intelligent systems using Deep Learning, LLMs, and full-stack technologies.
 
 # EXPERIENCE
 
@@ -177,9 +177,9 @@ experience:
   company: Project School, Keshav Memorial Engineering College
   duration: Part-time
   description: |
-  Authored research in healthcare & deep learning.
-  Built MERN + ML projects.
-  Developed Finance Chatbot using RAG.
+    Authored research in healthcare & deep learning.
+    Built MERN + ML projects.
+    Developed Finance Chatbot using RAG.
 
 # PROJECTS
 
@@ -219,7 +219,7 @@ education:
 
 - degree: B.E. CSE (AI & ML)
   school: Keshav Memorial Engineering College
-  duration: 2023 - 2027
+  duration: "2023 - 2027"
 
 - degree: Intermediate (MPC)
   school: Narayana Junior College
