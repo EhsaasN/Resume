@@ -142,7 +142,7 @@
 version: 2
 
 title: Ehsaas Nahata
-name: Ehsaas Nahata
+name: Ai/ML Engineer
 email: ehsaasnahata@gmail.com
 phone: "+91 8309258936"
 location: "Hyderabad"
@@ -163,6 +163,8 @@ plugins:
 about_profile_image: images/profile.jpg
 about_content: |
   AI/ML Engineer passionate about building intelligent systems using Deep Learning, LLMs, and full-stack technologies.
+  I enjoy constantly learning about machine learning and deep learning and using it to approach real world problems and come up with efficient and easy to use solutions. 
+  Currently working on publishing a paper in the healthcare sector by applying deep learning techniques to analyze ecg signals.
 
 content:
   - title: Experience
@@ -180,7 +182,7 @@ content:
         title: Project School, Keshav Memorial Engineering College
         sub_title: AI/ML Trainee (Part-time)
         description: |
-          Authored research in healthcare & deep learning.
+          Authored a research paper in healthcare & deep learning.
           Built MERN + DL/ML projects.
           Built Finance Chatbot (RAG architecture).
 
@@ -195,12 +197,12 @@ content:
       - layout: left
         title: Finance Chatbot
         description: |
-          Multi-agent chatbot using RAG.
+          Multi-agent chatbot using RAG and Web-Scraping.
 
       - layout: left
         title: Med-Net Web App
         description: |
-          Full-stack healthcare app (MERN + ML).
+          Full-stack healthcare app (MERN + ML) to analyze ecg-signals.
 
       - layout: left
         title: Traffic Management System
