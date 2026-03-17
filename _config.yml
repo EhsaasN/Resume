@@ -139,28 +139,23 @@
 #   "docker-compose.yml",
 #   ]
 resume: Resume.pdf
+
 title: Ehsaas Nahata
 name: Ehsaas Nahata
 email: [ehsaasnahata@gmail.com](mailto:ehsaasnahata@gmail.com)
-description: >
-AI/ML Engineer | Full Stack Developer | LLM & Deep Learning Enthusiast
+description: "AI/ML Engineer | Full Stack Developer | LLM & Deep Learning Enthusiast"
 
 baseurl: ""
 url: "https://EhsaasN.github.io/Resume"
 
-# Social links
-
 linkedin_username: ehsaas-nahata-836544347
 github_username: EhsaasN
 
-# Theme settings
-
 theme_skin: blue
+
 plugins:
 
 * jekyll-seo-tag
-
-# Content sections
 
 content:
 
@@ -172,19 +167,12 @@ content:
     title: ZOICX Technologies
     sub_title: Intern
     caption: OTB (Osmania Technology Business Incubator)
-    description: |
-
-    * Built a spam filter Chrome extension
-    * Learned core concepts of cybersecurity
+    description: "- Built a spam filter Chrome extension\n- Learned cybersecurity"
 
   * layout: left
     title: Project School, Keshav Memorial Engineering College
     sub_title: AI/ML Trainee (Part-time)
-    description: |
-
-    * Authored a research paper in healthcare & deep learning
-    * Built MERN + DL/ML projects
-    * Worked on LLM finetuning and built a Finance Chatbot (RAG architecture)
+    description: "- Authored a research paper\n- Built MERN + DL/ML projects\n- Built Finance Chatbot (RAG)"
 
 * title: Projects
   layout: list
@@ -192,25 +180,19 @@ content:
 
   * layout: left
     title: CNN Pothole Detection
-    description: |
-    Built a CNN using PyTorch to detect potholes in images
+    description: "Built a CNN using PyTorch"
 
   * layout: left
     title: Finance Chatbot
-    description: |
-    Built a chatbot using multiple agents and RAG architecture
+    description: "Multi-agent chatbot with RAG"
 
   * layout: left
     title: Med-Net Web App
-    description: |
-    Full-stack healthcare web app with research integration
-    Tech: MERN, TensorFlow, Pandas, NumPy, GCP, Azure
+    description: "Full-stack healthcare app (MERN + ML)"
 
   * layout: left
     title: Traffic Management System
-    description: |
-    Automated Traffic management system using computer vision and deep learning
-    Tech: MERN, TensorFlow, Pandas, NumPy, GCP
+    description: "Computer vision based traffic system"
 
 * title: Skills
   layout: list
@@ -218,19 +200,19 @@ content:
 
   * layout: left
     title: Programming
-    description: Python, Java, C/C++, Kotlin, HTML, CSS, JavaScript
+    description: "Python, Java, C/C++, Kotlin, HTML, CSS, JavaScript"
 
   * layout: left
     title: AI/ML
-    description: ANNs, CNNs, LLMs
+    description: "ANNs, CNNs, LLMs"
 
   * layout: left
     title: Tools
-    description: MongoDB, Git, GitHub, PostgreSQL, AI Agents
+    description: "MongoDB, Git, GitHub, PostgreSQL, AI Agents"
 
   * layout: left
     title: Soft Skills
-    description: Problem Solving, Teamwork, Strategic Thinking, Team Management
+    description: "Problem Solving, Teamwork, Strategic Thinking"
 
 * title: Education
   layout: list
@@ -239,27 +221,15 @@ content:
   * layout: left
     title: Keshav Memorial Engineering College
     sub_title: B.E. CSE (AI & ML)
-    caption: 2023 - 2027
-    description: |
-
-    * Affiliated with Osmania University
-    * Focused on AI/ML and problem solving
+    caption: "2023 - 2027"
 
   * layout: left
     title: Narayana Junior College
-    sub_title: Intermediate (MPC)
-    caption: 2021 - 2023
-    description: |
-
-    * Scored 91.4%
+    caption: "2021 - 2023"
 
   * layout: left
-    title: Kalpa School, Hyderabad
-    sub_title: Secondary Education
-    caption: 2021
-    description: |
-
-    * Scored 92.6% (ICSE)
+    title: Kalpa School
+    caption: "2021"
 
 * title: Achievements
   layout: list
@@ -267,15 +237,13 @@ content:
 
   * layout: left
     title: Code Conflux 2023
-    description: Winner of Inter College Coding Hackathon
+    description: "Winner"
 
   * layout: left
     title: Project School 2025
-    description: Keshav Memorial Engineering College
+    description: "KMEC"
 
   * layout: left
-    title: Inter College Badminton Competition 2024
-    description: |
+    title: Badminton Competition 2024
+    description: "Winner & Runner-up"
 
-    * Winner (Men’s Doubles & Mixed Doubles)
-    * Runner-up
