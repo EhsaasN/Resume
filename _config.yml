@@ -175,7 +175,7 @@ content:
         sub_title: Intern
         caption: OTBI (Osmania Technology Business Incubator)
         description: |
-          Built a spam filter Chrome extension.
+          Built a spam filter Chrome extension along with cloud deployment using GCP and OAuth 2.0.
           Learned core cybersecurity concepts.
 
       - layout: left
